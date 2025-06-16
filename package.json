@@ -1,0 +1,26 @@
+{
+  "name": "book-library-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/aamir-786/book-library-backend#readme",
+  "bugs": {
+    "url": "https://github.com/aamir-786/book-library-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aamir-786/book-library-backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}
